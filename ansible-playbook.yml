@@ -95,7 +95,7 @@
     - debug:
         var: out5
 
-- name: "Play 4 docker stack deploy"
+- name: "Play 3 docker stack deploy"
   hosts: docker-manager
   become: yes
   tasks:
