@@ -1,5 +1,6 @@
 # Pull base image
-FROM tomcat:8-jre8
+#FROM tomcat:8-jre8
+FROM tomcat:jre8-temurin
 
 # Maintainer
 MAINTAINER "raghav"
