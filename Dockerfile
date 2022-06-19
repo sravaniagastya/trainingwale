@@ -5,4 +5,5 @@ FROM tomcat:8-jre8
 MAINTAINER "raghav"
 
 # copy war file on to container
-COPY target/*.war /usr/local/tomcat/webapps
+#COPY target/*.war /usr/local/tomcat/webapps
+COPY *.war /usr/local/tomcat/webapps
