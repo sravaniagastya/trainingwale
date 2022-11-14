@@ -6,5 +6,5 @@ FROM tomcat:jre8-temurin
 MAINTAINER "raghav"
 
 # copy war file on to container
-#COPY target/*.war /usr/local/tomcat/webapps
-COPY *.war /usr/local/tomcat/webapps
+COPY target/*.war /usr/local/tomcat/webapps
+#COPY *.war /usr/local/tomcat/webapps
