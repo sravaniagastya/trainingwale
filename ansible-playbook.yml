@@ -73,7 +73,7 @@
     - name: "Delete the docker image"
       docker_image:
         state: absent
-        #force: yes
+        force: yes
         name: 127.0.0.1:5000/trainingwaleapp
         tag: latest
       register: out4
